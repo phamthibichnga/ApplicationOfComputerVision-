@@ -1,4 +1,7 @@
 # Image Blending 
+# Image Blending is mixing two images and foreground image mask of the corresponding pixel values to create a new target image.
+# Mask image : image that removed background
+
 import numpy as np
 import cv2
 
