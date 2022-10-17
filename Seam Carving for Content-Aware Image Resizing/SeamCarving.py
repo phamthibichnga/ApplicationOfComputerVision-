@@ -1,3 +1,10 @@
+'''
+The goal of my code is to perform content-aware image resizing for reduction with seam carving operator. 
+This allows image to be resized without losing or distorting meaningful content from scaling. 
+My code in this repository and technique described below is an implementation of the algorithm 
+Follow the paper : https://perso.crans.org/frenoy/matlab2012/seamcarving.pdf
+My code resize the the of image vertically 
+'''
 
 import numpy as np
 import cv2
