@@ -1,3 +1,16 @@
+'''
+Edge detection with gradient
+Step 1: Load image in gray-scale mode
+
+Step 2: Compute derivative with respect to x: Dx
+
+Step 3: Compute derivative with respect to y: Dy
+
+Step 4: Compute gradient norm: D = sqrt(Dx^2 + Dy^2)
+
+Step 5: Visualize result D
+'''
+
 # Load img
 from cmath import sqrt
 import cv2
